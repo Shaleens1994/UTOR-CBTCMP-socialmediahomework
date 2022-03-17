@@ -16,7 +16,7 @@ mongoose.connect('mongodb://localhost:27017/social-media-api', {
 
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Connected on localhost:${PORT}`));
 
 
 
